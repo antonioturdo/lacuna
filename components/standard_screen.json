@@ -1,0 +1,21 @@
+{
+"alias": "standard_screen",
+"name": "Standard Screen",
+"description": "Screen with a title and a optional subtitle. All the remaining space is available to the children",
+"parameters": 
+[
+	{
+	"alias": "title",
+	"name": "Title",
+	"type": "string",
+	"required": true
+	},
+	{
+	"alias": "subtitle",
+	"name": "Subtitle",
+	"type": "string",
+	"required": false
+	}
+],
+"is_screen": true
+}
