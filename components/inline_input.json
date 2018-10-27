@@ -1,0 +1,24 @@
+{
+    "alias": "inline_input",
+    "name": "Inline input",
+    "description": "An inline input element",
+    "parameters": 
+    [
+        {
+            "alias": "type",
+            "name": "Type",
+            "type": "string",
+            "required": true,
+            "allowed_values": ["text", "number", "email"]
+        },
+        {
+            "alias": "required",
+            "name": "Required",
+            "type": "boolean",
+            "required": true
+        }
+    ],
+    "allowed_children": [],    
+    "is_screen": false
+}
+    

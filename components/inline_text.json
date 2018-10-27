@@ -1,0 +1,16 @@
+{
+    "alias": "inline_text",
+    "name": "Inline text",
+    "description": "An inline text element",
+    "parameters": 
+    [
+        {
+            "alias": "text",
+            "name": "Text",
+            "type": "string",
+            "required": true
+        }
+    ],
+    "allowed_children": [],
+    "is_screen": false
+}
