@@ -1,0 +1,7 @@
+{
+	"alias": "multi_step_screen",
+	"name": "Multi-step screen",
+    "description": "Screen with a step progress bar",
+    "allowed_children": ["step"],
+	"extends": "screen"
+}

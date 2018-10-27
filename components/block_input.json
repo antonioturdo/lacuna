@@ -1,9 +1,15 @@
 {
-    "alias": "inline_input",
-    "name": "Inline input",
-    "description": "An inline input element",
+    "alias": "block_input",
+    "name": "Block input",
+    "description": "A block input element",
     "parameters": 
     [
+        {
+            "alias": "label",
+            "name": "Label",
+            "type": "string",
+            "required": true,
+        },        
         {
             "alias": "type",
             "name": "Type",

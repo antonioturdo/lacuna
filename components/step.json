@@ -1,0 +1,16 @@
+{
+    "alias": "step",
+    "name": "Step",
+    "description": "A step in a multi-step screen",
+    "parameters": [
+        {
+            "alias": "label",
+            "name": "Label",
+            "type": "string",
+            "required": true            
+        }
+    ],
+    "allowed_children": ["screen_part"],
+    "is_screen": false,
+    "notes": "How to represent that only one children is allowed?"    
+}

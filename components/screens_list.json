@@ -1,7 +1,8 @@
 {
     "alias": "screens_list",
     "name": "Screens list",
-    "description": "A list of subscreens",
+    "description": "A list of sub-screens",
+    "parameters": [],    
     "allowed_children": ["link_to_screen"],
     "is_screen": false
 }

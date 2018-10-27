@@ -17,5 +17,5 @@
 			"required": false
 		}
 	],
-	"is_screen": true
+	"extends": "screen"
 }

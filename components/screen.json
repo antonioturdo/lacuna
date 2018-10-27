@@ -1,6 +1,6 @@
 {
-    "alias": "blank_screen",
-    "name": "Blank screen",
+    "alias": "Screen",
+    "name": "Screen",
     "description": "Screen that leaves all the available space to children",
     "parameters": [],
     "is_screen": true

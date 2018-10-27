@@ -2,6 +2,7 @@
     "alias": "paragraph_with_inputs",
     "name": "Paragraph with inputs",
     "description": "A text paragraph with embedded inline inputs",
+    "parameters": [],
     "allowed_children": ["inline_input", "inline_text"],
     "is_screen": false
 }

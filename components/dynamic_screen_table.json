@@ -1,0 +1,9 @@
+{
+    "alias": "dynamic_screen_table",
+    "name": "Dynamic screen table",
+    "description": "A table of data to which rows can be added o removed. Data comes from sub-screens",
+    "parameters": [],
+    "allowed_children": ["blank_scren", "standard_screen"],
+    "is_screen": false,
+    "notes": "How to represent that only one children is allowed?"    
+}

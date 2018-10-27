@@ -1,0 +1,22 @@
+{
+    "alias": "dynamic_data_table",
+    "name": "Dynamic data table",
+    "description": "A table of data with fixed columns, but dynamic rows. Each cell of the table is an input",
+    "parameters": [
+        {
+            "alias": "columns",
+            "name": "Columns",
+            "type": "array",
+            "required": true,
+            "structure": [
+                {
+                    "alias": null,
+                    "label": null,
+                    "input_type": null
+                }
+            ]         
+        }        
+    ],
+    "allowed_children": [],
+    "is_screen": false
+}

@@ -1,0 +1,34 @@
+{
+    "alias": "fixed_data_table",
+    "name": "Fixed data table",
+    "description": "A table of data with fixed rows and columns. Each cell of the table is an input",
+    "parameters": [
+        {
+            "alias": "columns",
+            "name": "Columns",
+            "type": "array",
+            "required": true,
+            "structure": [
+                {
+                    "alias": null,
+                    "label": null,
+                    "input_type": null
+                }
+            ]         
+        },
+        {
+            "alias": "rows",
+            "name": "Rows",
+            "type": "array",
+            "required": true,
+            "structure": [
+                {
+                    "alias": null,
+                    "label": null
+                }
+            ]         
+        }        
+    ],
+    "allowed_children": [],
+    "is_screen": false
+}
