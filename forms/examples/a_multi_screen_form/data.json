@@ -1,0 +1,30 @@
+{
+    "root": {
+        "my_screens_list": {
+            "link_a": {
+                "screen_a": {
+                    "my_vertical_form": {
+                        "nome_block": {
+                            "nome": "Giuseppe"
+                        },
+                        "cognome_block": {
+                            "cognome": "Rossi"
+                        }                  
+                    }
+                }
+            },
+            "link_b": {
+                "screen_b": {
+                    "my_vertical_form": {
+                        "indirizzo_block": {
+                            "indirizzo": "Via del Fante"
+                        },
+                        "cap_block": {
+                            "cap": "90100"
+                        }                  
+                    }
+                }
+            }                   
+        }
+    }
+}

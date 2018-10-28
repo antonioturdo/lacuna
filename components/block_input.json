@@ -1,7 +1,7 @@
 {
     "alias": "block_input",
     "name": "Block input",
-    "description": "A block input element",
+    "description": "A block input element. It shows an input, a label and, if any, related errors",
     "parameters": 
     [
         {
