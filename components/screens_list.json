@@ -4,5 +4,6 @@
     "description": "A list of sub-screens",
     "parameters": [],    
     "allowed_children": ["link_to_screen"],
-    "is_screen": false
+    "is_screen": false,
+    "extends": "component"
 }

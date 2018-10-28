@@ -4,5 +4,6 @@
     "description": "A form composed of block inputs",
     "parameters": [],    
     "allowed_children": ["block_input"],
-    "is_screen": false
+    "is_screen": false,
+    "extends": "component"
 }

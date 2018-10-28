@@ -8,30 +8,9 @@
             "alias": "label",
             "name": "Label",
             "type": "string",
-            "required": true,
-        },        
-        {
-            "alias": "type",
-            "name": "Type",
-            "type": "string",
-            "required": true,
-            "allowed_values": ["text", "number", "email"]
-        },
-        {
-            "alias": "required",
-            "name": "Required",
-            "type": "boolean",
             "required": true
-        },
-        {
-            "alias": "important",
-            "name": "Important",
-            "type": "boolean",
-            "required": true,
-            "default": false
-        }        
+        }    
     ],
-    "allowed_children": [],    
-    "is_screen": false
+    "extends": "input"
 }
     

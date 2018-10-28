@@ -18,5 +18,6 @@
         }        
     ],
     "allowed_children": [],
-    "is_screen": false
+    "is_screen": false,
+    "extends": "component"
 }

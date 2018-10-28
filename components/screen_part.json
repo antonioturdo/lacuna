@@ -3,5 +3,6 @@
     "name": "Screen part",
     "description": "A portion of a screen. Leaves all the available space to children",
     "parameters": [],
-    "is_screen": false
+    "is_screen": false,
+    "extends": "component"
 }

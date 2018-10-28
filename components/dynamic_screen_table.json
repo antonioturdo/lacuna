@@ -5,5 +5,6 @@
     "parameters": [],
     "allowed_children": ["blank_scren", "standard_screen"],
     "is_screen": false,
+    "extends": "component",
     "notes": "How to represent that only one children is allowed?"    
 }

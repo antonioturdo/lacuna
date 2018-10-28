@@ -12,5 +12,6 @@
     ],
     "allowed_children": ["screen_part"],
     "is_screen": false,
+    "extends": "component",
     "notes": "How to represent that only one children is allowed?"    
 }

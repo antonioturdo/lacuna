@@ -1,0 +1,40 @@
+{
+    "structure": {
+        "name": "root",
+        "component": "screen",
+        "children": [
+            {
+                "name": "my_vertical_form",
+                "component": "vertical_form",
+                "children": [
+                    {
+                        "name": "nome_block",
+                        "component": "block_input",
+                        "parameters": [
+                            {
+                                "name": "nome",
+                                "label": "Nome",
+                                "type": "text",
+                                "required": true,
+                                "important": false
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cognome_block",
+                        "component": "block_input",
+                        "parameters": [
+                            {
+                                "name": "cognome",
+                                "label": "Cognome",
+                                "type": "text",
+                                "required": true,
+                                "important": false
+                            }
+                        ]
+                    }                    
+                ]
+            }
+        ]
+    }  
+}

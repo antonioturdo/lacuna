@@ -12,5 +12,6 @@
         }
     ],
     "allowed_children": ["blank_screen", "standard_screen"],
-    "is_screen": false
+    "is_screen": false,
+    "extends": "component"
 }

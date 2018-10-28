@@ -3,5 +3,6 @@
     "name": "Screen",
     "description": "Screen that leaves all the available space to children",
     "parameters": [],
-    "is_screen": true
+    "is_screen": true,
+    "extends": "component"
 }
