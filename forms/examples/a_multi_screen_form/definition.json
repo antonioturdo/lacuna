@@ -1,113 +1,119 @@
 {
     "structure": {
-        "name": "root",
         "component": "screen",
         "children": [
             {
-                "name": "my_screens_list",
-                "component": "screens_list",
-                "children": [
-                    {
-                        "name": "link_a",
-                        "component": "link_to_screen",
-                        "parameters": [
-                            {
-                                "text": "Pagina A"
-                            }
-                        ],
-                        "children": [
-                            {
-                                "name": "screen_a",
-                                "component": "screen",
-                                "children": 
-                                [
+                "my_screens_list": {
+                    "component": "screens_list",
+                    "children": [
+                        {
+                            "link_a": {
+                                "component": "link_to_screen",
+                                "parameters": [
                                     {
-                                        "name": "my_vertical_form",
-                                        "component": "vertical_form",
-                                        "children": [
-                                            {
-                                                "name": "nome_block",
-                                                "component": "block_input",
-                                                "parameters": [
-                                                    {
-                                                        "name": "nome",
-                                                        "label": "Nome",
-                                                        "type": "text",
-                                                        "required": true,
-                                                        "important": false
+                                        "text": "Pagina A"
+                                    }
+                                ],
+                                "children": [
+                                    {
+                                        "screen_a": {
+                                            "component": "screen",
+                                            "children": 
+                                            [
+                                                {
+                                                    "my_vertical_form": {
+                                                        "component": "vertical_form",
+                                                        "children": [
+                                                            {
+                                                                "nome": {
+                                                                    "component": "block_input",
+                                                                    "parameters": [
+                                                                        {
+                                                                            "label": "Nome",
+                                                                            "type": "text",
+                                                                            "required": true,
+                                                                            "important": false
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "cognome": {
+                                                                    "component": "block_input",
+                                                                    "parameters": [
+                                                                        {
+                                                                            "label": "Cognome",
+                                                                            "type": "text",
+                                                                            "required": true,
+                                                                            "important": false
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }                    
+                                                        ]
                                                     }
-                                                ]
-                                            },
-                                            {
-                                                "name": "cognome_block",
-                                                "component": "block_input",
-                                                "parameters": [
-                                                    {
-                                                        "name": "cognome",
-                                                        "label": "Cognome",
-                                                        "type": "text",
-                                                        "required": true,
-                                                        "important": false
-                                                    }
-                                                ]
-                                            }                    
-                                        ]
+                                                }
+                                            ]
+                                        }
                                     }
                                 ]
                             }
-                        ]
-                    },
-                    {
-                        "name": "link_b",
-                        "component": "link_to_screen",
-                        "parameters": [
-                            {
-                                "text": "Pagina B"
-                            }
-                        ],
-                        "children": [
-                            {
-                                "name": "screen_b",
-                                "component": "screen",
-                                "children": 
-                                [
+                        },
+                        {
+                            "link_b": {
+                                "component": "link_to_screen",
+                                "parameters": [
                                     {
-                                        "name": "my_vertical_form",
-                                        "component": "vertical_form",
-                                        "children": [
-                                            {
-                                                "name": "indirizzo_block",
-                                                "component": "block_input",
-                                                "parameters": [
-                                                    {
-                                                        "name": "indirizzo",
-                                                        "label": "Indirizzo",
-                                                        "type": "text",
-                                                        "required": true,
-                                                        "important": false
+                                        "text": "Pagina B"
+                                    }
+                                ],
+                                "children": [
+                                    {
+                                        "screen_b": {
+                                            "component": "screen",
+                                            "children": 
+                                            [
+                                                {
+                                                    "my_vertical_form": {
+                                                        "component": "vertical_form",
+                                                        "children": [
+                                                            {
+                                                                "indirizzo": {
+                                                                    "component": "block_input",
+                                                                    "parameters": [
+                                                                        {
+                                                                            "label": "Indirizzo",
+                                                                            "type": "text",
+                                                                            "required": true,
+                                                                            "important": false
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "cap": {
+                                                                    "component": "block_input",
+                                                                    "parameters": [
+                                                                        {
+                                                                            "label": "CAP",
+                                                                            "type": "text",
+                                                                            "required": true,
+                                                                            "important": false
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }                    
+                                                        ]
                                                     }
-                                                ]
-                                            },
-                                            {
-                                                "name": "cap_block",
-                                                "component": "block_input",
-                                                "parameters": [
-                                                    {
-                                                        "name": "cap",
-                                                        "label": "CAP",
-                                                        "type": "text",
-                                                        "required": true,
-                                                        "important": false
-                                                    }
-                                                ]
-                                            }                    
-                                        ]
+                                                }
+                                            ]
+                                        }
                                     }
                                 ]
-                            }
-                        ]
-                    }           
-                ]
+                            }           
+                        }
+                    ]
+                }
             }
         ]
     }  

@@ -1,12 +1,6 @@
 {
-    "root": {
-        "my_vertical_form": {
-            "nome_block": {
-                "nome": "Giuseppe"
-            },
-            "cognome_block": {
-                "cognome": "Rossi"
-            }                  
-        }       
-    }
+    "my_vertical_form": {
+        "nome": "Giuseppe",
+        "cognome": "Rossi"
+    }       
 }
