@@ -9,27 +9,23 @@
                         {
                             "nome": {
                                 "component": "block_input",
-                                "parameters": [
-                                    {
-                                        "label": "Nome",
-                                        "type": "text",
-                                        "required": true,
-                                        "important": false
-                                    }
-                                ]
+                                "parameters": {
+                                    "label": "Nome",
+                                    "type": "text",
+                                    "required": true,
+                                    "important": false
+                                }
                             }
                         },
                         {
                             "cognome": {
                                 "component": "block_input",
-                                "parameters": [
-                                    {
-                                        "label": "Cognome",
-                                        "type": "text",
-                                        "required": true,
-                                        "important": false
-                                    }
-                                ]
+                                "parameters": {
+                                    "label": "Cognome",
+                                    "type": "text",
+                                    "required": true,
+                                    "important": false
+                                }
                             }
                         }                    
                     ]

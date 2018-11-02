@@ -9,17 +9,14 @@
                         {
                             "link_a": {
                                 "component": "link_to_screen",
-                                "parameters": [
-                                    {
-                                        "text": "Pagina A"
-                                    }
-                                ],
+                                "parameters": {
+                                    "text": "Pagina A"
+                                },
                                 "children": [
                                     {
                                         "screen_a": {
                                             "component": "screen",
-                                            "children": 
-                                            [
+                                            "children": [
                                                 {
                                                     "my_vertical_form": {
                                                         "component": "vertical_form",
@@ -27,27 +24,23 @@
                                                             {
                                                                 "nome": {
                                                                     "component": "block_input",
-                                                                    "parameters": [
-                                                                        {
-                                                                            "label": "Nome",
-                                                                            "type": "text",
-                                                                            "required": true,
-                                                                            "important": false
-                                                                        }
-                                                                    ]
+                                                                    "parameters": {
+                                                                        "label": "Nome",
+                                                                        "type": "text",
+                                                                        "required": true,
+                                                                        "important": false
+                                                                    }
                                                                 }
                                                             },
                                                             {
                                                                 "cognome": {
                                                                     "component": "block_input",
-                                                                    "parameters": [
-                                                                        {
-                                                                            "label": "Cognome",
-                                                                            "type": "text",
-                                                                            "required": true,
-                                                                            "important": false
-                                                                        }
-                                                                    ]
+                                                                    "parameters": {
+                                                                        "label": "Cognome",
+                                                                        "type": "text",
+                                                                        "required": true,
+                                                                        "important": false
+                                                                    }
                                                                 }
                                                             }                    
                                                         ]
@@ -62,11 +55,9 @@
                         {
                             "link_b": {
                                 "component": "link_to_screen",
-                                "parameters": [
-                                    {
-                                        "text": "Pagina B"
-                                    }
-                                ],
+                                "parameters": {
+                                    "text": "Pagina B"
+                                },
                                 "children": [
                                     {
                                         "screen_b": {
@@ -80,27 +71,23 @@
                                                             {
                                                                 "indirizzo": {
                                                                     "component": "block_input",
-                                                                    "parameters": [
-                                                                        {
-                                                                            "label": "Indirizzo",
-                                                                            "type": "text",
-                                                                            "required": true,
-                                                                            "important": false
-                                                                        }
-                                                                    ]
+                                                                    "parameters": {
+                                                                        "label": "Indirizzo",
+                                                                        "type": "text",
+                                                                        "required": true,
+                                                                        "important": false
+                                                                    }
                                                                 }
                                                             },
                                                             {
                                                                 "cap": {
                                                                     "component": "block_input",
-                                                                    "parameters": [
-                                                                        {
-                                                                            "label": "CAP",
-                                                                            "type": "text",
-                                                                            "required": true,
-                                                                            "important": false
-                                                                        }
-                                                                    ]
+                                                                    "parameters": {
+                                                                        "label": "CAP",
+                                                                        "type": "text",
+                                                                        "required": true,
+                                                                        "important": false
+                                                                    }
                                                                 }
                                                             }                    
                                                         ]
