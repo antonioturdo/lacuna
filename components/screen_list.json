@@ -1,6 +1,6 @@
 {
-    "alias": "screens_list",
-    "name": "Screens list",
+    "alias": "screen_list",
+    "name": "Screen list",
     "description": "A list of sub-screens",
     "parameters": [],    
     "allowed_children": ["link_to_screen"],

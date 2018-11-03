@@ -3,8 +3,8 @@
         "component": "screen",
         "children": [
             {
-                "my_screens_list": {
-                    "component": "screens_list",
+                "my_screen_list": {
+                    "component": "screen_list",
                     "children": [
                         {
                             "link_a": {
