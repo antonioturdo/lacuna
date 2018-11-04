@@ -13,5 +13,6 @@
     ],
     "allowed_children": ["blank_screen", "standard_screen"],
     "is_screen": false,
+    "break_rendering": true,
     "extends": "component"
 }

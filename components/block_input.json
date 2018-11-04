@@ -11,6 +11,7 @@
             "required": true
         }    
     ],
-    "extends": "input"
+    "extends": "input",
+    "has_data": true
 }
     

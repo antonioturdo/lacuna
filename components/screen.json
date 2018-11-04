@@ -2,7 +2,15 @@
     "alias": "Screen",
     "name": "Screen",
     "description": "Screen that leaves all the available space to children",
-    "parameters": [],
+    "parameters": 
+    [
+        {
+            "alias": "title",
+            "name": "Text",
+            "type": "string",
+            "required": true
+        }
+    ],
     "is_screen": true,
     "extends": "component"
 }
